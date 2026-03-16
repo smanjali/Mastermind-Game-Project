@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Mastermind</string>
+    <string name="my_name">Anjali Riedel</string>
+    <string name="class_name">Mobile App Development</string>
+    <string name="class_number">CSCI 494</string>
+    <string name="title_activity_main">Home</string>
+    <string name="title_activity_play">Play Game</string>
+    <string name="play_button">Play</string>
+    <string name="guesses">Guesses</string>
+    <string name="end_game">Game Over</string>
+    <string name="you_win">You Are A Winner!</string>
+    <string name="you_lose">You Lost the Game</string>
+    <string name="ok">Okay Bye</string>
+    <string name="exit_game">Are You Giving Up?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--    Settings/Preferences -->
+    <string name="NUMBER_OF_COLORS">NUMBER_OF_COLORS</string>
+    <string name="NUMBER_OF_COLORS_TITLE">Number of Colors</string>
+    <string name="NUMBER_OF_PEGS">NUMBER_OF_PEGS</string>
+    <string name="NUMBER_OF_PEGS_TITLE">Number of Pegs</string>
+    <string name="NUMBER_OF_GUESSES">NUMBER_OF_GUESSES</string>
+    <string name="NUMBER_OF_GUESSES_TITLE">Number of Guesses</string>
+    <string name="DUPLICATES">DUPLICATES</string>
+    <string name="DUPLICATES_TITLE">Duplicates</string>
+    <string name="ALLOW_BLANKS">ALLOW_BLANKS</string>
+    <string name="ALLOW_BLANKS_TITLE">Allow Blanks</string>
+    <string name="SOUND">SOUND</string>
+    <string name="SOUND_TITLE">Sound</string>
+</resources>

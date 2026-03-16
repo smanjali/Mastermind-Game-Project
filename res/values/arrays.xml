@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="NUMBER_OF_COlORS">
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="NUMBER_OF_PEGS">
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="NUMBER_OF_GUESSES">
+        <item>8</item>
+        <item>10</item>
+    </string-array>
+
+</resources>
