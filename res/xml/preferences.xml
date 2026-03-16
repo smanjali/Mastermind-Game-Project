@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="SETUP_CATEGORY"
+        android:title="Game Settings">
+        <ListPreference
+            android:key="@string/NUMBER_OF_COLORS"
+            android:title="@string/NUMBER_OF_COLORS_TITLE"
+            android:defaultValue="6"
+            android:entries="@array/NUMBER_OF_COlORS"
+            android:entryValues="@array/NUMBER_OF_COlORS"
+            android:inputType="number"
+            android:summary="%s"/>
+        <ListPreference
+            android:key="@string/NUMBER_OF_PEGS"
+            android:title="@string/NUMBER_OF_PEGS_TITLE"
+            android:defaultValue="4"
+            android:entries="@array/NUMBER_OF_PEGS"
+            android:entryValues="@array/NUMBER_OF_PEGS"
+            android:inputType="number"
+            android:summary="%s"/>
+        <ListPreference
+            android:key="@string/NUMBER_OF_GUESSES"
+            android:title="@string/NUMBER_OF_GUESSES_TITLE"
+            android:defaultValue="10"
+            android:entries="@array/NUMBER_OF_GUESSES"
+            android:entryValues="@array/NUMBER_OF_GUESSES"
+            android:inputType="number"
+            android:summary="%s"/>
+        <SwitchPreferenceCompat
+            android:key="@string/DUPLICATES"
+            android:title="@string/DUPLICATES_TITLE"
+            android:defaultValue="true"/>
+        <SwitchPreferenceCompat
+            android:key="@string/ALLOW_BLANKS"
+            android:title="@string/ALLOW_BLANKS_TITLE"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
