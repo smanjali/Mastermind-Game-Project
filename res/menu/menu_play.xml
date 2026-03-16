@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- go to how to site -->
+    <item
+        android:id="@+id/play_how_to"
+        android:title="How to Play"
+        android:icon="@android:drawable/ic_menu_info_details" />
+
+    <!-- leave the game -->
+    <item
+        android:id="@+id/exit"
+        android:title="Exit Game"
+        android:icon="@android:drawable/ic_menu_add" />
+
+</menu>
